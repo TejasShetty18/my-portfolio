@@ -27,8 +27,11 @@ export const experienceData: Experience[] = [
     period: "May 2024 - Present",
     description: [
       "Developed and maintained backend APIs using Node.js, Firebase, and GCP.",
-      "Integrated Stripe payments and Zoho CRM for seamless transaction workflows.",
-      "Collaborated on frontend using React.js, TypeScript, Ant Design, and ShadCN UI.",
+      "Integrated Stripe payments and Zoho CRM for seamless transaction and communication workflows.",
+      "Collaborated on frontend development using React.js, TypeScript, Ant Design, and ShadCN UI.",
+      "Gained expertise in Firestore, Firebase Cloud Functions, and cloud-based data management.",
+      "Improved full-stack development skills, including end-to-end integration of frontend, backend, and cloud services.",
+      "Strengthened cross-team communication and collaboration in Agile development environments."
     ],
   },
   {
@@ -36,9 +39,10 @@ export const experienceData: Experience[] = [
     role: "Backend Developer",
     period: "August 2025 - Present", // Note: Dates from resume kept as is
     description: [
-      "Designed RESTful APIs consumed by React frontend applications.",
-      "Built scalable data models using AWS DynamoDB and MySQL.",
-      "Integrated AWS services for backend deployment and cloud scalability.",
+      "Developed and maintained backend services using Node.js and AWS for production applications",
+      "Designed and implemented RESTful APIs consumed by React frontend applications",
+      "Built scalable data models and performed CRUD operations using AWS DynamoDB and MySQL",
+      "Integrated AWS services for backend deployment, data storage, and cloud scalability"
     ],
   },
   {
@@ -46,9 +50,9 @@ export const experienceData: Experience[] = [
     role: "SDE Intern",
     period: "Jan 2024 - April 2024",
     description: [
-      "Developed a digital Medical Log Book System to modernize record-keeping.",
-      "Integrated features for experience logging, attendance, and internal marks tracking.",
-      "Collaborated in Agile teams to deliver efficient software solutions.",
+      "Developed robust backend features using MERN stack technologies.",
+      "Collaborated in Agile teams to deliver timely and efficient software solutions.",
+      "Developed a digital Medical Log Book System to modernize traditional record-keeping for administrators, HODs, faculty, and students by integrating experience logging, attendance management, internal marks tracking, marks sheet generation, and feedback mechanisms, enhancing transparency, data-driven decision-making, and administrative efficiency in medical education.",
     ],
   },
 ]
