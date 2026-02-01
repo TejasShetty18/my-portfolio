@@ -1,4 +1,4 @@
-import { Experience, Projects, SkillCategory } from "@/types";
+import { Education, Experience, Projects, Certification, SkillCategory } from "@/types";
 
 export const personalInfo = {
   name: "Tejas S Shetty",
@@ -6,16 +6,22 @@ export const personalInfo = {
   location: "Bangalore, Karnataka",
   email: "tejas.s.shetty2000@gmail.com",
   socials: {
-    github: "https://github.com/TejasShetty18", // Update with real link
-    linkedin: "https://www.linkedin.com/in/tejas-s-shetty-12b15a23b/", // Update with real link
-    portfolio: "#",
+    github: "https://github.com/TejasShetty18",
+    linkedin: "https://www.linkedin.com/in/tejas-s-shetty-12b15a23b/",
   },
   summary:
     "Full Stack Developer with expertise in Node.js, React, and Cloud technologies (AWS/GCP). Experienced in building scalable APIs, integrating complex payment systems like Stripe, and optimizing backend performance.",
 };
 
+export const educationData: Education = {
+  college: "MIT, Manipal Institute of Technology, Manipal ",
+  degree: "MCA - Master of Computer Application",
+  period: "2022 – 2024",
+  percent: "CGPA- 7.53"
+}
+
 export const experienceData: Experience[] = [
-    {
+  {
     company: "Saigeware Technologies",
     role: "Full Stack Development",
     period: "May 2024 - Present",
@@ -76,6 +82,13 @@ export const projectData: Projects[] = [
     techStack: ["React.js", "Node.js", "MongoDB"],
     link: "https://github.com/TejasShetty18/second_chance"
   },
+  {
+    title: "My Portfolio",
+    description:
+      "A modern and responsive personal portfolio built with Next.js, TypeScript, and Tailwind CSS. It showcases my experience, projects, and technical skills with a clean UI and fast performance.",
+    techStack: ["Next.js", "TypeScript", "Shadcn","Tailwind"],
+    link: "https://github.com/TejasShetty18/my-portfolio"
+  },
 ];
 
 export const skillsData: SkillCategory[] = [
@@ -99,3 +112,27 @@ export const skillsData: SkillCategory[] = [
     skills: ["AWS", "GCP", "Firebase", "MongoDB", "MySQL", "DynamoDB"],
   },
 ];
+
+export const certificationsData: Certification[] = [
+  {
+    title: "Python Django",
+    issuer: "Udemy",
+    link: "https://www.udemy.com/certificate/UC-c0e8dc21-8e8b-4f6e-9d05-5d109a9523cd/", // Update these!
+  },
+  {
+    title: "MongoDB with NodeJS",
+    issuer: "MongoDB",
+    link: "https://learn.mongodb.com/c/M_zGrypcRyiKk7_9TPJzxA",
+  },
+  {
+    title: "Python Flask",
+    issuer: "Udemy",
+    link: "https://www.udemy.com/certificate/UC-649f9903-bb76-44d2-a196-22d7f18690c5/",
+  },
+  {
+    title: "Node.js, Express & MongoDB",
+    issuer: "Udemy",
+    link: "https://www.udemy.com/certificate/UC-846016dc-f968-41fa-80ec-7782a26bb9d5/",
+  },
+];
+
