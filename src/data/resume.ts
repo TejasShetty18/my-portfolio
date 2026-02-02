@@ -63,35 +63,40 @@ export const projectData: Projects[] = [
     description:
       "A platform allowing patients to book appointments and physicians to manage profiles. Features real-time status updates.",
     techStack: ["React.js", "Node.js", "Firebase", "Ant Design"],
-    link: "https://github.com/TejasShetty18/HealtCare_Backend"
+    link: "https://github.com/TejasShetty18/HealtCare_Backend",
+    demoLink: "https://main--tejas-healthcare.netlify.app/"
   },
   {
     title: "Badminton Score Master",
     description:
       "Android app for tracking badminton scores and managing tournaments seamlessly.",
     techStack: ["Android", "Java"],
-    link: "https://github.com/TejasShetty18/BadmintonScore-App"
+    link: "https://github.com/TejasShetty18/BadmintonScore-App",
+    demoLink: "https://drive.google.com/file/d/1rXVlhsU_6NVjqe2F-WzS2k-y7fi9e-FP/view"
   },
   {
     title: "My Blog",
     description:
       "Blogging platform allowing users to upload posts and comment. Built with Django and SQLite.",
     techStack: ["Python", "Django", "HTML/CSS"],
-    link: "https://github.com/TejasShetty18/MyBlog"
+    link: "https://github.com/TejasShetty18/MyBlog",
+    demoLink: "#"
   },
   {
     title: "Second Chance",
     description:
       "Marketplace for buying and selling expendable items at economical prices.",
     techStack: ["React.js", "Node.js", "MongoDB"],
-    link: "https://github.com/TejasShetty18/second_chance"
+    link: "https://github.com/TejasShetty18/second_chance",
+    demoLink: "https://secondchance.onrender.com"
   },
   {
     title: "My Portfolio",
     description:
       "A modern and responsive personal portfolio built with Next.js, TypeScript, and Tailwind CSS. It showcases my experience, projects, and technical skills with a clean UI and fast performance.",
     techStack: ["Next.js", "TypeScript", "Shadcn","Tailwind"],
-    link: "https://github.com/TejasShetty18/my-portfolio"
+    link: "https://github.com/TejasShetty18/my-portfolio",
+    demoLink: "https://secondchance.onrender.com"
   },
 ];
 

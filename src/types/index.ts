@@ -9,7 +9,8 @@ export interface Projects {
     title: string,
     description: string,
     techStack: string[],
-    link: string
+    link: string,
+    demoLink: string
 }
 
 export interface SkillCategory {

@@ -246,12 +246,12 @@ export function Hero() {
                   <Linkedin className="h-5 w-5" />
                 </Link>
               </Button>
-              <Button variant="outline" size="icon" className="h-12 w-12 rounded-full" asChild>
-                {/* Assuming you might have a resume link later */}
+              {/* <Button variant="outline" size="icon" className="h-12 w-12 rounded-full" asChild>
+                
                 <Link href="/resume.pdf" target="_blank" aria-label="Download Resume">
                   <Download className="h-5 w-5" />
                 </Link>
-              </Button>
+              </Button> */}
             </div>
           </div>
         </div>
