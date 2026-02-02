@@ -1,36 +1,107 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# ⚡ Modern Developer Portfolio
 
-## Getting Started
+A sleek, high-performance personal portfolio website built with **Next.js 14**, **TypeScript**, **Tailwind CSS**, and **shadcn/ui**.
 
-First, run the development server:
+Designed for developers who want a clean, accessible, and easily customizable showcase for their work.
+
+## 🚀 Features
+
+* **🎨 Modern UI/UX:** Built with [shadcn/ui](https://ui.shadcn.com/) components for a consistent, professional look.
+* **🌓 Dark Mode:** Fully integrated theme toggling (Light/Dark/System) using `next-themes`.
+* **⚡ High Performance:** Powered by Next.js App Router and Server Components.
+* **🧩 Type-Safe:** Complete TypeScript implementation for robust code.
+* **📄 Data-Driven:** Content is separated from logic. Update your resume in **one file** (`src/data/resume.ts`) to reflect changes across the site.
+* **✨ Smooth Animations:**
+    * "Terminal" typing effect in Hero section.
+    * Zig-zag timeline layout for Experience.
+    * Slide-in scroll animations for Certifications.
+    * Interactive tabs for Skills.
+
+## 🛠️ Tech Stack
+
+* **Framework:** [Next.js 14](https://nextjs.org/) (App Router)
+* **Language:** [TypeScript](https://www.typescriptlang.org/)
+* **Styling:** [Tailwind CSS](https://tailwindcss.com/)
+* **Components:** [shadcn/ui](https://ui.shadcn.com/) (Radix UI + Tailwind)
+* **Icons:** [Lucide React](https://lucide.dev/)
+* **Animations:** Native CSS transitions & Intersection Observer API (No heavy libraries).
+
+## 📂 Project Structure
 
 ```bash
+├── src/
+│   ├── app/                # Next.js App Router pages
+│   ├── components/
+│   │   ├── layout/         # Navbar, Footer
+│   │   ├── sections/       # Hero, Experience, Projects, Skills, etc.
+│   │   ├── ui/             # shadcn/ui primitives
+│   │   ├── mode-toggle.tsx # Dark mode switch
+│   │   └── theme-provider.tsx
+│   ├── data/               # ⚡ YOUR DATA GOES HERE
+│   │   └── resume.ts       # Single source of truth for content
+│   ├── lib/                # Utilities (cn helper)
+│   └── types/              # TypeScript interfaces
+├── public/                 # Static assets
+└── ...config files
+
+
+Getting Started
+1. Clone the repository
+Bash
+git clone [https://github.com/yourusername/my-portfolio.git](https://github.com/yourusername/my-portfolio.git)
+cd my-portfolio
+
+2. Install dependencies
+Bash
+npm install
+# or
+yarn install
+# or
+pnpm install
+
+3. Run the development server
+Bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Open http://localhost:3000 with your browser to see the result.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+📝 Customization
+This portfolio is designed to be "Config First". You do not need to edit complex React components to update your information.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+1. Update Personal Info
+Go to src/data/resume.ts. Here you can modify:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Name, Title, Location
 
-## Learn More
+Social Links (GitHub, LinkedIn)
 
-To learn more about Next.js, take a look at the following resources:
+Summary/Bio
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+2. Add Projects & Experience
+In the same file (src/data/resume.ts), add entries to the projectData and experienceData arrays. The UI will automatically generate the cards and timelines.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+TypeScript
+// Example: Adding a new project
+export const projectData = [
+  {
+    title: "New App",
+    description: "Built with Next.js",
+    techStack: ["React", "Tailwind"],
+    link: "[https://github.com](https://github.com)...",
+    demoLink: "[https://demo.com](https://demo.com)..." // Optional
+  },
+  // ...
+]
 
-## Deploy on Vercel
+3. Change Colors
+To change the primary color (currently Slate/Black), edit src/app/globals.css. shadcn/ui uses CSS variables for theming.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Deployment
+The easiest way to deploy is using Vercel.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Push your code to a GitHub repository.
+
+Go to Vercel and import the project.
+
+Click Deploy.
+
+Vercel will automatically detect the Next.js settings and optimize the build.
