@@ -96,7 +96,7 @@ export const projectData: Projects[] = [
       "A modern and responsive personal portfolio built with Next.js, TypeScript, and Tailwind CSS. It showcases my experience, projects, and technical skills with a clean UI and fast performance.",
     techStack: ["Next.js", "TypeScript", "Shadcn","Tailwind"],
     link: "https://github.com/TejasShetty18/my-portfolio",
-    demoLink: "https://tejas-shetty-portfolio.vercel.app/"
+    demoLink: "https://tejas-s-shetty-portfolio.vercel.app/"
   },
 ];
 
