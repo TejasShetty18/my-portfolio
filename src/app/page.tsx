@@ -69,15 +69,19 @@ import { Hero } from "@/components/sections/hero";
 import { Experience } from "@/components/sections/experience";
 import { Projects } from "@/components/sections/projects";
 import { Skills } from "@/components/sections/skills";
+import { Education } from "@/components/sections/educations";
+import { Certifications } from "@/components/sections/certifications";
 
 export default function Home() {
   return (
     <main className="min-h-screen bg-background font-sans antialiased">
       <Hero />
       <Experience />
-      <Skills />
+      <Education />
       <Projects />
-      
+      <Skills />
+      <Certifications />
+
       {/* Simple Footer */}
       <footer className="py-6 text-center text-slate-500 text-sm">
         <p>© {new Date().getFullYear()} Tejas S Shetty. Built with Next.js & Shadcn UI.</p>

@@ -15,17 +15,23 @@ export function Navbar() {
         {/* Navigation Links & Toggle */}
         <div className="flex items-center gap-6">
           <div className="hidden md:flex gap-6 text-sm font-medium text-slate-600 dark:text-slate-400">
-            <Link href="#skills" className="hover:text-primary transition-colors">
-              Skills
-            </Link>
             <Link href="#experience" className="hover:text-primary transition-colors">
               Experience
+            </Link>
+            <Link href="#education" className="hover:text-primary transition-colors">
+              Education
             </Link>
             <Link href="#projects" className="hover:text-primary transition-colors">
               Projects
             </Link>
+            <Link href="#skills" className="hover:text-primary transition-colors">
+              Skills
+            </Link>
+            <Link href="#certifications" className="hover:text-primary transition-colors">
+              Certification
+            </Link>
           </div>
-          
+
           <div className="flex items-center gap-2">
             <ModeToggle />
           </div>

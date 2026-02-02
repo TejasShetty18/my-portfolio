@@ -9,10 +9,25 @@ export interface Projects {
     title: string,
     description: string,
     techStack: string[],
-    link: string
+    link: string,
+    demoLink: string
 }
 
 export interface SkillCategory {
-  category: string;
-  skills: string[];
+    category: string;
+    skills: string[];
+}
+
+export interface Education {
+    college: string,
+    degree: string,
+    period: string,
+    percent: string
+}
+
+export interface Certification {
+    title: string;
+    issuer: string;
+    link: string;
+    icon?: string; // Optional: to handle different provider logos logic
 }
