@@ -96,7 +96,7 @@ export const projectData: Projects[] = [
       "A modern and responsive personal portfolio built with Next.js, TypeScript, and Tailwind CSS. It showcases my experience, projects, and technical skills with a clean UI and fast performance.",
     techStack: ["Next.js", "TypeScript", "Shadcn","Tailwind"],
     link: "https://github.com/TejasShetty18/my-portfolio",
-    demoLink: "https://secondchance.onrender.com"
+    demoLink: "https://tejas-shetty-portfolio.vercel.app/"
   },
 ];
 
@@ -126,7 +126,7 @@ export const certificationsData: Certification[] = [
   {
     title: "Python Django",
     issuer: "Udemy",
-    link: "https://www.udemy.com/certificate/UC-c0e8dc21-8e8b-4f6e-9d05-5d109a9523cd/", // Update these!
+    link: "https://www.udemy.com/certificate/UC-a5d8805c-ecaf-44d5-9599-5175d14f1ca6/", // Update these!
   },
   {
     title: "MongoDB with NodeJS",

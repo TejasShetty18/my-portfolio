@@ -278,7 +278,7 @@ export function Hero() {
                 <p><span className="text-purple-400">const</span> <span className="text-blue-400">developer</span> = <span className="text-yellow-300">{"{"}</span></p>
                 <p className="pl-4">name: <span className="text-green-400">"{personalInfo.name}"</span>,</p>
                 <p className="pl-4">role: <span className="text-green-400">"{personalInfo.title}"</span>,</p>
-                <p className="pl-4">skills: <span className="text-yellow-300">["React", "Node.js", "AWS"]</span>,</p>
+                <p className="pl-4">skills: <span className="text-yellow-300">["JavaScript", "TypeScript", "Python"]</span>,</p>
                 <p className="pl-4">hardWorker: <span className="text-orange-400">true</span>,</p>
                 <p className="pl-4">quickLearner: <span className="text-orange-400">true</span>,</p>
                 <p className="pl-4">hireable: <span className="text-orange-400">function</span>() <span className="text-yellow-300">{"{"}</span></p>
