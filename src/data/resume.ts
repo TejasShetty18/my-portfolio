@@ -114,12 +114,19 @@ export const skillsData: SkillCategory[] = [
       "Django",
       "ShadCN UI",
       "Ant Design",
+      "HTML5",
+      "CSS3",
+      "Next.js"
     ],
   },
   {
     category: "Cloud & Databases",
     skills: ["AWS", "GCP", "Firebase", "MongoDB", "MySQL", "DynamoDB"],
   },
+  {
+    category: "Developer Tools",
+    skills: ["VS Code", "Juypter", "Figma", "GitHub", "GitLab", "Bitbucket"]
+  }
 ];
 
 export const certificationsData: Certification[] = [
