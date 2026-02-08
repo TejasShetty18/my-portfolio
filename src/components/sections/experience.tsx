@@ -1,37 +1,3 @@
-// // src/components/sections/experience.tsx
-// import { experienceData } from "@/data/resume";
-// import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-// import { Badge } from "@/components/ui/badge";
-
-// export function Experience() {
-//   return (
-//     <section className="py-16 max-w-4xl mx-auto px-6" id="experience">
-//       <h2 className="text-3xl font-bold mb-8">Work Experience</h2>
-//       <div className="space-y-6">
-//         {experienceData.map((job, index) => (
-//           <Card key={index} className="border-l-4 border-l-primary shadow-sm">
-//             <CardHeader>
-//               <div className="flex justify-between items-start flex-col md:flex-row gap-2">
-//                 <div>
-//                   <CardTitle className="text-xl font-bold">{job.role}</CardTitle>
-//                   <p className="text-slate-500 font-medium">{job.company}</p>
-//                 </div>
-//                 <Badge variant="secondary">{job.period}</Badge>
-//               </div>
-//             </CardHeader>
-//             <CardContent>
-//               <ul className="list-disc list-inside space-y-2 text-slate-600 dark:text-slate-400">
-//                 {job.description.map((point, i) => (
-//                   <li key={i}>{point}</li>
-//                 ))}
-//               </ul>
-//             </CardContent>
-//           </Card>
-//         ))}
-//       </div>
-//     </section>
-//   );
-// }
 
 // src/components/sections/experience.tsx
 import { experienceData } from "@/data/resume";
