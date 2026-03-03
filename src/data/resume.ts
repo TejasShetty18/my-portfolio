@@ -116,16 +116,22 @@ export const skillsData: SkillCategory[] = [
       "Ant Design",
       "HTML5",
       "CSS3",
-      "Next.js"
+      "Next.js",
+      "Redux",
+      "FastAPI"
     ],
   },
   {
     category: "Cloud & Databases",
-    skills: ["AWS", "GCP", "Firebase", "MongoDB", "MySQL", "DynamoDB"],
+    skills: ["AWS", "GCP", "Firebase", "MongoDB", "MySQL", "DynamoDB", "PostgreSQL",],
   },
   {
     category: "Developer Tools",
-    skills: ["VS Code", "Juypter", "Figma", "GitHub", "GitLab", "Bitbucket"]
+    skills: ["VS Code", "Juypter", "Figma", "GitHub", "GitLab", "Bitbucket", "Docker"]
+  },
+  {
+    category: "Security & Auth",
+    skills: ["OAuth2", "JWT"]
   }
 ];
 
