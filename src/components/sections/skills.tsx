@@ -2,15 +2,16 @@ import { skillsData } from "@/data/resume";
 import { Badge } from "@/components/ui/badge";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
-import { Code2, Database, Terminal, Layout, Cpu } from "lucide-react";
+import { Code2, Database, Terminal, Layout, Cpu, ShieldCheck } from "lucide-react";
 
 // Helper to get icons
 const iconMap: Record<string, any> = {
   "Languages": Code2,
   "Frameworks & Tech": Layout,
-  "Technologies/Frameworks": Layout,
+  // "Technologies/Frameworks": Layout,
   "Cloud & Databases": Database,
   "Developer Tools": Terminal,
+  "Security & Auth": ShieldCheck
 };
 
 export function Skills() {
